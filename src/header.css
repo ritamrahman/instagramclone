@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    min-width: 100%;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 5px;
+    border-bottom: 1px solid lightgray;
+    background-color: #fff;
+}
+
+.header__right {
+    display: flex;
+}
+
+.header__right>h5 {
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.header__right>h5::after {
+    content: '/';
+    font-size: 20px;
+}
+
+.logo {
+    object-fit: contain;
+}
+
+.search {
+    max-width: 200px;
+    max-height: 25px;
+    margin: 0;
+}
