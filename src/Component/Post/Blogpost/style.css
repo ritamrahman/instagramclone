@@ -1,9 +1,0 @@
-.blog__post {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.post__image {
-  /* object-fit: contain; */
-  width: 100%;
-}
